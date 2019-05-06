@@ -12,12 +12,14 @@ class JsonToSassMap {
     ]
   }
 
-  register(source, output, topLevelKey) {
-    const sourceObj = fs.readFileSync(source)
+  register(options) {
+    const sourceObj = fs.readFileSync(options.src)
+    const json = JSON.parse(sourceObj)
+
     this.config = {
-      source: JSON.parse(sourceObj).styles,
-      output,
-      topLevelKey,
+      source: options.filterOn ? json[options.filterOn] : json,
+      output: options.out,
+      topLevelKey: options.topKey,
     }
   }
 

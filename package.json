@@ -1,7 +1,7 @@
 {
   "name": "laravel-mix-json-to-sass-map",
   "version": "0.0.1",
-  "description": "Convert JSON to a compass-friendly Sass map",
+  "description": "Convert JSON to a scss syntax Sass map",
   "main": "index.js",
   "repository": {
     "type": "git",
