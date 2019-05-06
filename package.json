@@ -1,0 +1,23 @@
+{
+  "name": "laravel-mix-json-to-sass-map",
+  "version": "0.0.1",
+  "description": "Convert JSON to a compass-friendly Sass map",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelcollective/laravel-mix-json-to-sass-map"
+  },
+  "keywords": [
+    "laravel",
+    "laravel mix",
+    "mix",
+    "roots",
+    "wordpress"
+  ],
+  "author": "Kelly Mears",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelcollective/laravel-mix-json-to-sass-mapissues"
+  },
+  "homepage": "https://github.com/pixelcollective/laravel-mix-json-to-sass-map#readme"
+}
